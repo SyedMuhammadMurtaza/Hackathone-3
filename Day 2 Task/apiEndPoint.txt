@@ -1,0 +1,6 @@
+/api/shoes	GET	Fetch all shoes items	None	{id: 1 , name : "Pizza" }
+/api/shoes/id	GET	Fetch a single shoes item	id(Path)	{id: 1 , name : "Pizza" }
+/api/shoes	POST	Add a new shoes item	name.price.category(body)	{success:true.id:5}
+/api/shoes/id	PUT	update ashoes item	id(Path).name.price(body)	{success:true}
+/api/shoes/id	DELETE	Delete a shoes item	id(Path)	{success:true}
+/api/Categories	GET	Fetch all shoes categories	None	{categories:["sportshoes"]}
