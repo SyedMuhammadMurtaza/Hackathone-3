@@ -15,9 +15,9 @@ import {structure} from './src/sanity/structure'
 
 export default defineConfig({
   basePath: '/studio',
-  projectId,
-  dataset,
-  token
+  projectId:"to5tioje",
+  dataset:"production",
+  token:"sk0oqDHOkPzGMtmmT4MkUYYX8cneeIkWCrEApdrM87eOkHHPlpQcTF4tV9M7oq2cwysN88QH6nMMao0C59UfqyHPbOu9teKcMxb65OypsPND8lszv0G7c1HQNQaATShS21GkpLvhCJM3VwO3C2BN4bSNRmLNBi5QgoE3ziSDNDdye255Fv7x",
   // Add and edit the content schema in the './sanity/schemaTypes' folder
   schema,
   plugins: [
